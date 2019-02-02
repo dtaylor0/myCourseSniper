@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#updateIndex.py updates the file that holds the indeces to search for in classScanner.py
+#updateIndex.py updates the file that holds the indices to search for in classScanner.py
 import sys
 def main():
     with open("indexSrc.txt",mode='r+') as f:
