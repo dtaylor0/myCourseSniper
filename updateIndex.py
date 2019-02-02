@@ -3,7 +3,7 @@
 import sys
 def main():
     with open("indexSrc.txt",mode='r+') as f:
-        print "Here are your current indeces:"
+        print "Here are your current indices:"
         print "-----"
         print f.read().strip()
         print "-----"
