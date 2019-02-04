@@ -24,6 +24,7 @@ I made this personal course sniper because the similar services that are availab
 ```
 login={'username':'your_username','password':'your_password'}
 ```
+
 **classScanner.py** - periodically gets the list of open indices from the SOC API, compares the indices in indexSrc.txt to the ones just recieved, and calls webregBot.py if any matches are found.  Also shows timestamp of each API access and prints all indices it checks from indexSrc.txt
 
 **webregBot.py** - takes in arguments of up to 10 indices (10 is the limit of webreg's registration page), opens Firefox, creates appropriate URL with all indices included and navigates to the URL, uses credentials from credentials.py to login to webreg, and awaits the user to submit the indices for registration if they choose to.
