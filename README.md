@@ -20,7 +20,7 @@ I made this personal course sniper because the similar services that are availab
 
 **credentials.py** - contains a dictionary holding a 'username' and a 'password' to sign into webreg once openings are found.
 
-#####Example file contents:
+##### Example file contents:
 ```
 login={'username':'your_username','password':'your_password'}
 ```
