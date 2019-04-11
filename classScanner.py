@@ -8,7 +8,7 @@ def main():
     with open("indexSrc.txt",mode='r') as f:
         for line in f:
             indexArray.append(line.strip())
-    #url="http://sis.rutgers.edu/soc/api/openSections.gzip?year=2019&term=1&campus=NB"
+    #url="http://sis.rutgers.edu/soc/api/openSections.gzip?year=2019&term=9&campus=NB"
     url="http://sis.rutgers.edu/soc/api/openSections.gzip"
     info={('year',str(2019)),('term',str(1)),('campus','NB')}
     while True:

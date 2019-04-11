@@ -1,0 +1,36 @@
+1555009071015	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t4/pw339nq15rddm07z4qwr2w_w0000gn/T/rust_mozprofile.uSqDXN4rIxY2"
+1555009071644	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555009071644	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555009071644	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555009073218	Marionette	INFO	Listening on port 61226
+1555009073284	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sims.rutgers.edu/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=521437625, line 1: unreachable code after return statement
+JavaScript warning: https://sims.rutgers.edu/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=521437625, line 1: unreachable code after return statement
+JavaScript warning: https://sims.rutgers.edu/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=521437625 line 1 > eval, line 1: unreachable code after return statement
+1555009093595	Marionette	INFO	Stopped listening on port 61226
+1555009106597	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t4/pw339nq15rddm07z4qwr2w_w0000gn/T/rust_mozprofile.kvd3ZrrJBfHJ"
+1555009107121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555009107121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555009107121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555009108738	Marionette	INFO	Listening on port 61280
+1555009108767	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+1555009109183	Marionette	INFO	Stopped listening on port 61280
+1555009148803	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t4/pw339nq15rddm07z4qwr2w_w0000gn/T/rust_mozprofile.WUyiSekm1voB"
+1555009149362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555009149362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555009149362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555009150889	Marionette	INFO	Listening on port 61324
+1555009150959	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sims.rutgers.edu/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1341801980, line 1: unreachable code after return statement
+JavaScript warning: https://sims.rutgers.edu/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1341801980, line 1: unreachable code after return statement
+JavaScript warning: https://sims.rutgers.edu/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1341801980 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555009257963	Marionette	INFO	Stopped listening on port 61324
