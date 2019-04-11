@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 def main():
-    registerUrl='https://sims.rutgers.edu/webreg/editSchedule.htm?login=cas&semesterSelection=12019&indexList='
+    registerUrl='https://sims.rutgers.edu/webreg/editSchedule.htm?login=cas&semesterSelection=92019&indexList='
     if len(sys.argv)<2 or len(sys.argv)>11:
         print 'Error: wrong # of args, use format -> ./webregBot.py 01234 12345 23456'
         sys.exit()
